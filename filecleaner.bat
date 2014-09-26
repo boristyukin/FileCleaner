@@ -1,4 +1,2 @@
-powershell.exe -noprofile -ExecutionPolicy Bypass "& '\\lkmaisigrid10.multihosp.net\lkmsftpstg01\FileCleaner\filecleaner.ps1' -configFile '\\lkmaisigrid10.multihosp.net\lkmsftpstg01\FileCleaner\filecleaner.ini' -email SSCIDataWarehouseTeam@AHSS.ORG -report '\\lkmaisigrid10.multihosp.net\lkmsftpstg01\FileCleaner\filecleanerlog.csv'"
-
+powershell.exe -noprofile -ExecutionPolicy Bypass "& '\\networkshare\FileCleaner\filecleaner.ps1' -configFile '\\networkshare\FileCleaner\filecleaner.ini' -email youremail@email.com -report '\\networkshare\FileCleaner\filecleanerlog.csv'"
 EXIT %errorlevel%
-pause
